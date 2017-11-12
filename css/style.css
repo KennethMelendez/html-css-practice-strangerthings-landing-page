@@ -25,6 +25,7 @@ nav {
   position:fixed;
   background: white;
   z-index: 1;
+  width:100%;
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav li {
 nav a {
   text-decoration: none;
   color:rgb(255, 94, 94);
-  padding:5rem 4rem;
+  padding:5rem 1rem;
 
   text-transform:uppercase;
   font-family: Helvetica, arial, sans-serif;
@@ -58,12 +59,11 @@ nav a:hover {
 }
 
 .logo {
-  width:30%;
   flex:4;
 }
 
 .logo img {
-  max-width:40%;
+  width:10rem;
 }
 /*header*/
 header {
@@ -178,6 +178,7 @@ footer {
 
   nav ul {
     display:block;
+    text-align: center;
   }
 
   nav a {
